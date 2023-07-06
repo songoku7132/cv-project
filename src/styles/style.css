@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+}
+
+#root {
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 900px;
+}
+
+.cv-box {
+    border: 2px solid black;
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 850px;
+    width: 600px;
+    padding: 30px;
+}
+
+.form-box {
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 850px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.general-box {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.education-box {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.practical-box {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 26px;
+}
